@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // TODO: Add env variables 
 const publicVapidKey = "BFRS-nY2Szr5q3CoT5fQjU1jpPhsG-m8-Z9kQqAtvJTdRzZTPy3fik8jKb6j15-b6QjlP8t2s_lKauICAHkh-as"
-const privateVapidKey = "T3U9CRimpsPm_qOkpQk8Oq7GgO-dQWiXut-hw3WQCc"
+const privateVapidKey = "-T3U9CRimpsPm_qOkpQk8Oq7GgO-dQWiXut-hw3WQCc"
 
 // These keys verify who is sending the push notification
 webpush.setVapidDetails(
